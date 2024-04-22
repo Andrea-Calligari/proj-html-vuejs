@@ -1,8 +1,9 @@
-<script >
-export default{
-    data(){
-        return{
-
+<script>
+import { store } from '../store'
+export default {
+    data() {
+        return {
+            store,
         }
     }
 }
@@ -10,8 +11,11 @@ export default{
 </script>
 
 <template>
-    
-  
+    <main>
+        
+
+    </main>
+
 </template>
 
 <style lang="scss" scoped>
