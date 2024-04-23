@@ -12,11 +12,11 @@ export default {
 </script>
 
 <template>
-  <section class="p-2">
-    <div class="container-lg ">
+  <header>
+    <div class="container-fluid ">
       <div class="row justify-content-between align-items-center">
         <div class="col-8">
-          <span><i class="fa-solid fa-location-dot"></i> 7087 Richmond hwy, Alexandria, VA</span>
+          <span class="ms-5"><i class="fa-solid fa-location-dot"></i> 7087 Richmond hwy, Alexandria, VA</span>
           <span class="ms-5"><i class="fa-solid fa-phone"></i> 800-2345-6789</span>
         </div>
         <div class="col-4">
@@ -40,9 +40,9 @@ export default {
         </div>
       </div>
     </div>
-  </section>
+  </header>
   <section class="hero ">
-    <div class="container-lg">
+    <div class="container-fluid">
       <div class="d-flex justify-content-center  align-items-center  ms-5 ">
         <div class="col-4 ">
           <img class=img src="/img/logo.png" alt="">
@@ -54,12 +54,10 @@ export default {
         </div>
         <div class="col-2  text-primary "><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></div>
       </div>
-
     </div>
       <div class="hero__container">
         <div class="col-12">
-          <div class="d-flex flex-column align-items-start gap-3">
-
+          <div class="d-flex flex-column align-items-start gap-4">
             <h1 >QuickWind</h1>
             <p>All kind of boats, yatch charters and sailing destination <br> for hobbyist yatchsmen and women !</p>
             <button href="#" class="btn btn-outline-light">Learn more</button>
@@ -78,7 +76,6 @@ export default {
   background-image: url('/img/bg1-1.jpg');
   background-position: center;
   background-size: cover;
-  height: 900px;
   
   padding: 10px;
   color: whitesmoke;
@@ -91,7 +88,7 @@ export default {
 .hero__container{
   max-width: 1000px;
   margin: 0 auto ;
-  margin-top: 270px;
+  margin-top: 220px;
 
   h1{
     font-size: 100px;

@@ -1,0 +1,17 @@
+.btn.blue{
+    background-color: var(--light-blue);
+    // border: 1px solid var(--white);
+    color: white;
+    
+}
+.btn.blue:hover{
+        background-color: var(--white);
+        color: var(--dark);
+}
+
+.btn.light{
+    background-color: var(--light-blue);
+    border: 1px solid var(--white);
+    color: white;
+
+}
