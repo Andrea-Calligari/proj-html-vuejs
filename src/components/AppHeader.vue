@@ -49,7 +49,7 @@ export default {
         </div>
         <div class="col-6  ">
           <ul class="d-flex gap-3  ">
-            <li  v-for="item in store.headerLinks"><a :href="item.href">{{ item.entries }}</a></li>
+            <li  v-for="link in store.headerLinks"><a :href="link.href">{{ link.entries }}</a></li>
           </ul>
         </div>
         <div class="col-2  text-primary "><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></div>
