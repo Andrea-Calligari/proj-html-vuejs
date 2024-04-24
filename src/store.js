@@ -81,7 +81,7 @@ export const store = reactive ({
             path: '/img/services7.jpg'
 
         },
-    ]
+    ],
 
 
 

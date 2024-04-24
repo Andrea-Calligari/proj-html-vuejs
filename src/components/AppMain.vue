@@ -136,7 +136,7 @@ export default {
             </div>
         </section>
         <section class="yatch">
-            <div class="container-sm text-center ">
+            <div class="container-lg text-center ">
                 <h1 class="text-light">Our Yatchs </h1>
                 <hr>
                 <div class="d-flex flex-wrap ">
@@ -149,18 +149,55 @@ export default {
         <section class="rally">
             <div class="container-lg">
                 <div class="d-flex flex-column gap-3  align-items-start">
-                    <div class="col-6">
+                    <div class="col-12">
                         <h1 class="title">Enjoy</h1>
                         <p class="paragraph">WORLD RALLY 2017-19</p>
-                        <p> Explore some of the most beautiful regions of the world.Make your dreams <br> come true and
+                        <p class= fs-4>Explore some of the most beautiful regions of the world. Make your dreams <br> come true and
                             join the Yatchtec Rally 2017-19 
                         </p>
-                        <button class="btn blue">Learn more</button>
-
+                        <button class="btn blue">More Details</button>
                     </div>
                 </div>
             </div>
         </section>
+        <section class="blog">
+            <div class="container-lg text-center">
+                <h1>Yatchsmen's blog</h1>
+                <hr>
+                <div class="d-flex">
+                    <div class="col-4 p-3">
+                        <div class="card border-0">
+                            <img class="card-img" src="../../public/img/post1-1-570x450.jpg" >
+                            <p class="card-text p-2">
+                                December 17 2020
+                            </p>
+                            <h4 class="card-title">Is Greece a Good Choice for Yatchs Sailing?</h4>
+                        </div>
+                    </div>
+                    <div class="col-4 p-3">
+                        <div class="card border-0">
+                            <img class="card-img" src="../../public/img/post2-1-570x450.jpg" >
+                        </div>
+                        <p class="card-text p-2">
+                                December 17 2020
+                            </p>
+                            <h4 class="card-title">Is Greece a Good Choice for Yatchs Sailing?</h4>
+                    </div>
+                    <div class="col-4 p-3">
+                        <div class="card border-0">
+                            <img class="card-img" src="../../public/img/post3-1-570x450.jpg" >
+                            <p class="card-text p-2">
+                                December 17 2020
+                            </p>
+                            <h4 class="card-title">Is Greece a Good Choice for Yatchs Sailing?</h4>
+                        </div>
+                    </div>
+                    
+                </div>
+                <button class="btn blue-secondary">View All Blog Posts</button>
+            </div>
+        </section>
+        <section class="testimonials"></section>
     </main>
 
 </template>
@@ -224,11 +261,8 @@ export default {
     background-image: url('/img/bg6.jpg');
     background-position: top;
     background-size: cover;
-    padding-top: 50px;
+     padding-top: 50px;
 
-    .container {
-        padding-top: 100px;
-    }
 
     .card_logo {
         color: white;
@@ -249,12 +283,12 @@ export default {
 }
 
 .rally {
-    
+    height: 650px;
     background-image: url('/img/bg7.jpg');
     background-position: center;
     background-size: cover;
     color: var(--white);
-    padding-top: 350px;
+    padding-top: 150px;
     
 
     .rally_container {
@@ -262,6 +296,19 @@ export default {
         margin: 0 auto;
         
 
+    }
+    .title{
+        font-size: 80px;
+    }
+    .paragraph{
+        font-size: 40px;
+    }
+}
+.blog{
+    height: 700px;
+    padding: 50px;
+    .card-text {
+        color: grey;
     }
 }
 </style>

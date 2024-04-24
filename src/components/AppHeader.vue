@@ -17,10 +17,10 @@ export default {
       <div class="row justify-content-between align-items-center">
         <div class="col-8">
           <span class="ms-5"><i class="fa-solid fa-location-dot"></i> 7087 Richmond hwy, Alexandria, VA</span>
-          <span class="ms-5"><i class="fa-solid fa-phone"></i> 800-2345-6789</span>
+          <span class="ms-3"><i class="fa-solid fa-phone"></i> 800-2345-6789</span>
         </div>
         <div class="col-4">
-          <ul class="d-flex gap-3 p-0 m-0 justify-content-center text-primary">
+          <ul class="d-flex gap-3 p-0 m-0 justify-content-center ">
             <li>
               <a href="#">
                 <i class="fa-brands fa-instagram"></i>
@@ -88,7 +88,7 @@ export default {
 .hero__container{
   max-width: 1000px;
   margin: 0 auto ;
-  margin-top: 220px;
+  margin-top: 150px;
 
   h1{
     font-size: 100px;

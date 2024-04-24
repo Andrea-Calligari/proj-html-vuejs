@@ -37,7 +37,7 @@ export default{
 @use './style/general';
 @use 'bootstrap';
 section{
-     height: 900px;
+     height: 800px;
      
 }
 

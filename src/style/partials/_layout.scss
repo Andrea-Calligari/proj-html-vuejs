@@ -9,9 +9,14 @@
         color: var(--dark);
 }
 
-.btn.light{
+.btn.blue-secondary{
     background-color: var(--light-blue);
     border: 1px solid var(--white);
     color: white;
+
+}
+.btn.blue-secondary:hover{
+    background-color: var(--light-blue);
+    color: var(--white);
 
 }
